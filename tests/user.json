@@ -1,0 +1,139 @@
+{
+  "headerData": {
+    "companyName": "Customer Complaints Management Information System",
+    "address": "P.O.Box 345, Dar es Salaam, Tanzania",
+    "phoneNo": "+255745123654",
+    "email": "info@ccmis.co.tz"
+  },
+  "user":{
+    "name": "Revocatus Sengo",
+    "role": "Technician",
+    "rating": 3,
+    "profileImg": "https://dcqparsebackend.herokuapp.com/api/files/dcqb/1cb013f5ad4d2bbc5f55cd9d18413814_technician-avatar.png",
+    "department": "Distribution",
+    "street": "Street 108",
+    "zone": "Zone 1"
+  },
+  "options": {
+    "status": "All",
+    "priority": "All",
+    "method": "All",
+    "zone": "All",
+    "street": "All",
+    "department": "All",
+    "from": "20/09/2020",
+    "to": "23/09/2020"
+  },
+  "columns": [
+    "Reference No",
+    "Customer Name",
+    "Status",
+    "Priority",
+    "Zone",
+    "Street",
+    "Department",
+    "Reported Date"
+  ],
+  "rows":[
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ],
+    [
+      "rirIre4342",
+      "Mwajuma Issa",
+      "Open",
+      "High",
+      "Zone 1",
+      "Street 908",
+      "Distribution",
+      "20/09/2020"
+    ]
+  ]
+}

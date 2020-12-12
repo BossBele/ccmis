@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
 
 import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer";
 import Report from "../components/Report";
 import complaint from "../tests/complaint.json";
+import individual from "../tests/individual.json";
 
 export default function Index() {
   const [isClient, setIsClient] = useState(false);
@@ -17,7 +17,14 @@ export default function Index() {
       {isClient ? (
         <>
           <PDFDownloadLink
-            document={<Report complaint={complaint} />}
+            document={
+              <Report
+                logo="https://react-pdf.org/images/logo.png"
+                subject="Individual"
+                data={individual} // see using complaint
+                // tasks (uncomment and see)
+              />
+            }
             fileName="somename.pdf"
           >
             {({ blob, url, loading, error }) =>
@@ -25,7 +32,16 @@ export default function Index() {
             }
           </PDFDownloadLink>
           <hr />
-          <PDFViewer children={<Report complaint={complaint} />}></PDFViewer>
+          <PDFViewer
+            children={
+              <Report
+                logo="https://react-pdf.org/images/logo.png"
+                subject="Individual"
+                data={individual} // see using complaint
+                // tasks (uncomment and see)
+              />
+            }
+          ></PDFViewer>
         </>
       ) : null}
     </div>
